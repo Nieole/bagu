@@ -12,6 +12,14 @@ repositories {
 }
 
 dependencies {
+
+    implementation 'org.apache.shardingsphere:shardingsphere-sql-parser-engine:4.1.1'
+    implementation 'org.apache.shardingsphere:shardingsphere-sql-parser-mysql:4.1.1'
+    implementation 'org.apache.shardingsphere:shardingsphere-sql-parser-sqlserver:4.1.1'
+    implementation 'org.apache.shardingsphere:shardingsphere-sql-parser-oracle:4.1.1'
+    implementation 'org.apache.shardingsphere:shardingsphere-sql-parser-postgresql:4.1.1'
+    implementation 'org.apache.shardingsphere:shardingsphere-sql-parser-sql92:4.1.1'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
 }
